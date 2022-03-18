@@ -5,7 +5,7 @@ import easyocr
 #################################################
 frameWidth = 640
 frameHeight = 480
-plateCascade = cv2.CascadeClassifier("Resources/russianplate.xml")
+plateCascade = cv2.CascadeClassifier("Resources/PlateDetector.xml")
 minArea = 1000
 nearCities=["CG", "JH", "HR", "MP", "BR", "DL", "UK", "UA"]
 modCities=["PB", "HP", "JK", "LA", "GJ", "MH", "WB", "OR", "OD", "SK"]
